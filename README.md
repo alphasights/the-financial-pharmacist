@@ -17,6 +17,7 @@ A loan belongs to 1 account, an account can have multiple loans.
 An order belongs to 1 account, an account can have multiple orders.
 A transaction belongs to 1 account, an account can have multiple transactions.
 
+![Financial Database](https://user-images.githubusercontent.com/35533263/134050206-8308c6c8-54f2-465d-89b2-9350c64d908a.png)
 
 ## How to connect to the database:
 Download [MySQL Workbench](https://www.mysql.com/products/workbench/) or use a database client of your choice.
