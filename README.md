@@ -12,10 +12,10 @@ In this exercise you will connect to a live database and write SQL queries to an
 ## The Database
 The task focuses on the “financial” schema (see explanation on how to access the DB below). 
 The relevant tables are: loan, order, trans, account.
-The relationships between the tables
-A loan belongs to 1 account, an account can have multiple loans.
-An order belongs to 1 account, an account can have multiple orders.
-A transaction belongs to 1 account, an account can have multiple transactions.
+The relationships between the tables:
+- A loan belongs to 1 account, an account can have multiple loans.
+- An order belongs to 1 account, an account can have multiple orders.
+- A transaction belongs to 1 account, an account can have multiple transactions.
 
 ![Financial Database](https://user-images.githubusercontent.com/35533263/134050206-8308c6c8-54f2-465d-89b2-9350c64d908a.png)
 
