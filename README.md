@@ -1,10 +1,11 @@
 # TakeHome Assessment
 
-This assignment consists of two parts - SQL questions and an open ended data question. 
+This assessment consists of two parts - SQL questions and an open ended data question. 
 Please return your answers to Part 1 and Part 2 in a single document, as either 
 1. A Google Document (making sure to grant viewing permissions), or 
 1. A plain text file.
 
+You should expect to spend no more than 3 hours on this assessment
 ## Part 1 - SQL questions
 In this exercise you will connect to a live database and write SQL queries to answer various questions. Your submission for this part should include only the SQL queries. 
 
