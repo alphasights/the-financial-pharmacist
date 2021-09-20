@@ -52,55 +52,28 @@ We are working for DrugBasics Co., a company that sells chemicals to pharmaceuti
 # The data
 Pharmaceuticals are tricky because every country has different regulations. This impacts which items we can sell to which clients. Fortunately, we know the location of all of our customers’ factories. The table below contains a sample of our data.
 
-Customer ID
-Factory ID
-Country
-1
-1
-USA
-1
-2
-Canada
-1
-3
-France
-2
-4
-USA
-2
-5
-Russia
-2
-6
-UK
-2
-7
-Mexico
-3
-8
-USA
-3
-9
-UK
-3
-10
-China
-3
-11
-China
-3
-12
-Germany
-4
-13
-France
+Customer ID | Factory ID | Country
+----------- | ---------- | -------
+1 | 1| USA
+1|2|Canada
+1|3|France
+2|4|USA
+2|5|Russia
+2|6|UK
+2|7|Mexico
+3|8|USA
+3|9|UK
+3|10|China
+3|11|China
+3|12|Germany
+4|13|France
 
 
 # Context:
 The head of the sales division wants to determine which customers to assign to each of her teams in a way that improves regulation specialization for each team. Each customer only works with one sales team.
 
 # Task:
-She has asked you to help in this task by calculating which customers are most similar to each other based on the countries they have factories in. Specifically, she wants to know the similarity between any two customers.
+She has asked you to help in this task by calculating which customers are most similar to each other **based on the countries they have factories in**. Specifically, she wants to know the **similarity between any two customers.**
 
 Given two customers, how would you calculate their similarity? In what situations might your approach not work well?
 
